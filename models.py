@@ -3,6 +3,10 @@ class User:
         self.bb_id = bb_id
         self.psw = psw
         self.id = chat_id
+        self.course_list = []
+
+    def update_course_list(self, course_list):
+        self.course_list = course_list
 
 
 class Course:
