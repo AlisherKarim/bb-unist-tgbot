@@ -10,6 +10,6 @@ class User:
 
 
 class Course:
-    def __init__(self, course_name, course_id = 12345):
+    def __init__(self, course_name, course_id=12345):
         self.name = course_name
-        self.id = course_id
+        self.course_id = course_id
